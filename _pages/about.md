@@ -18,6 +18,9 @@ latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+At the moment, I'm a college student double majoring in Electrical Engineering and Computer Engineering at Auburn University. I'll be graduating in May, and after that I plan to work as part of the wireless cybersecurity team at the Johns Hopkins Applied Physics Laboratory while I work on getting a master's in Artificial Intelligence.
+
+I'm not exactly sure what this blog is going to be yet. Right now I'm hoping to post my projects and maybe give weekly updates as to what I'm working on in order to motivate me to stay on top of things.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
