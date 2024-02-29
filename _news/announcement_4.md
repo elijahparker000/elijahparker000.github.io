@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be travelling to Germany this weekend to work on the DNAM project for my Senior Design course at Auburn! :airplane: :smile:
+I'll be travelling to Germany this weekend to work on the DNAM project for my Senior Design course at Auburn! :airplane:

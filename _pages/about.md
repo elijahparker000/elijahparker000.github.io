@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Address. Contacts. Moto. Etc.
+#subtitle: Address. Contacts. Moto. Etc.
 #<a href='https://www.linkedin.com/in/elijahparker000/overlay/contact-info/'>Contact</a>
 # Address. Contacts. Moto. Etc.
 
