@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - elijahparker000
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - elijahparker000/JeopardyPi
+  - elijahparker000/AI_Class_Projects
+  - elijahparker000/CANIDS
+  - elijahparker000/ArduinoDailyTriviaGame
+  - elijahparker000/Forensics_File_Extractor

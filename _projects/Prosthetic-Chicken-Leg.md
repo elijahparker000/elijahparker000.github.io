@@ -122,7 +122,7 @@ This silicone model ended up being the best we came up with for this project. Sh
     </div>
 </div>
 <div class="caption">
-    <strong>Left:</strong> Stylin' <strong>Right:</strong> Helping with the gardening
+    The prosthetic in action
 </div>
 
 
