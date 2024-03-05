@@ -1,3 +1,4 @@
+---
 layout: page
 title: JeopardyPi
 description: An almost perfect replica of America's Favorite Quiz Show® which runs on a Raspberry Pi
@@ -8,8 +9,15 @@ category: fun
 
 In this project, I built a fully functional Jeopardy game with a RaspberryPi, some buttons, a couple of screens, and plenty of very ugly <a href="tab:https://github.com/elijahparker000/JeopardyPi" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">Python code</a>.
 
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691431553-0.JPG)
-#<figcaption align = "center"><b>Finished project (ignore the voltage warning)</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/FinishedPoweredOn.JPG" title="Finished project" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Finished project (ignore the voltage warning)
+</div>
+
 
 
 ## Overview
@@ -27,8 +35,14 @@ If you pull that data into an excel file, you'll see that there's not always a f
 ## Software
 It's all a big mess of Python, and I used PyQt5 to design the GUIs. PyQt5 offers a tool called Qt Designer which allows you to quickly design your GUIs with ease. Once satisfied, Qt Designer will fill in the Python file for you in order to put all of your buttons and labels in the right place. 
 
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691436277-0.png)
-#<figcaption align = "center"><b>Qt Designer</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/QtDesigner.png" title="Qt Designer" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Qt Designer
+</div>
 
 The main problems I ran into with Qt Designer were that I couldn't figure out how to add custom fonts (I had to use Find and Replace in my code) and that things didn't always look the same once they got to the Raspberry Pi. For instance, if you want to make a button the standard blue color that Jeopardy uses, you have to also give it a zero-pixel border, otherwise the Raspberry Pi displays a very light blue color. I don't understand why this is the case, but if you're curious, the specific stylesheet code is:
 #> QPushButton{background-color:#060CE9; border:0px; color:#d69f4c;}
@@ -42,35 +56,67 @@ Also, if you want to go with the dual touchscreens as I have for this project, y
 ### PCB Design
 For this project I designed my very first PCB. I used Fusion 360 for the design (probably not the greatest choice but it's a simple design) and ordered it through JLCPCB. There are actually two PCBs, a larger one for the players' side which holds five audio jacks (this game allows for up to five players) and a smaller one for Alex's buzzer on the opposite side of the housing. 
 
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691438786-0.png)
-#<figcaption align = "center"><b>Players' PCB</b></figcaption>
-
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691438798-0.png)
-#<figcaption align = "center"><b>Alex's PCB</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/MainPCB.png" title="Players' PCB" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Players' PCB
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/AlexPCB.png" title="Alex PCB" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Alex's PCB
+</div>
 
 Each buzzer has a corresponding LED and resistor on the PCB which ultimately weren't used. The PCB also features a capacitor for each buzzer to filter out noise in order to prevent false button presses. In hindsight, I'm fairly certain that these capacitors need to be as close to the button as possible meaning that those on the PCBs aren't really doing much. I added capacitors inside the buzzers themselves to compensate for this. And since the buzzers plug in via an audio jack, it's very easy to remove them for storage or in the event that less than five people are playing. The two PCBs connect to each other via a ribbon cable, and then the larger PCB connects to the Raspberry Pi via a ribbon cable. You may notice in the render of the larger PCB that the larger connector is facing backwards, but this is only a problem with the render. It was necessary to position the connector in such a way in order to ensure I didn't confuse any of the connections. In reality, the boards look like this when soldered:
 
-
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691439245-0.jpg)
-#<figcaption align = "center"><b>Assembled PCBs</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/AssembledPCBs.jpg" title="Assembled PCBs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Assembled PCBs
+</div>
 
 ### Wooden Box
 About half of this project was spent writing code, and the other half was spent simply building this box. I'm not very good at woodworking, but I had a lot of help from a coworker (shoutout to John) and some excellent laser engraving from a buddy of mine (shoutout to <a href="tab:https://www.youtube.com/@workinwithwillis" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">WorkinWithWillis</a>). In the end, I think I did a couple clever things building this box, and I'm very happy with how it turned out. However, if you're aiming to undertake this project and don't want to spend way too many hours building a nice box, I highly recommend you learn how to design for a laser cutter and just pay someone to laser cut the wood for you. It's pretty much guaranteed to be easier. 
 
-
-
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691440535-0.jpg)
-#<figcaption align = "center"><b>The Innards</b></figcaption>
-
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691439792-0.jpg)
-#<figcaption align = "center"><b>Finished Box</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/BoxInnards.jpg" title="Box Innards" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The innards
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/FinishedBox.jpg" title="Finished Box" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Finished box
+</div>
 
 
 ### Buzzers
 The buzzers were 3D printed to fit <a href="tab:https://www.amazon.com/gp/product/B0BC1BL6Z1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">these buttons</a>. There's not much special about them other than that a capacitor is placed inside the buzzer across the ground and signal line to reduce noise and eliminate false presses and missed presses.
 
-#![Elijah's Blog](https://bear-images.sfo2.cdn.digitaloceanspaces.com/elijahparker000-1691440713-0.jpg)
-#<figcaption align = "center"><b>Buzzer Innards</b></figcaption>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/JeopardyPi/BuzzerInnards.jpg" title="Buzzer innards" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Buzzer innards
+</div>
+
 
 
 ### Resources
