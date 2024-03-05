@@ -137,7 +137,7 @@ Throughout the world, we kill about **80 billion** land animals every year[^1] a
     </div>
 </div>
 <div class="caption">
-    <a href="https://ourworldindata.org/meat-production" style="color: black; text-decoration: underline;text-decoration-style: dotted;">Image source</a>
+    <a href="https://ourworldindata.org/meat-production" style="text-decoration: underline;text-decoration-style: dotted;">Image source</a>
 </div>
 
 Almost all of these animals are confined to factory farms where they are seen as units of production rather than the sentient animals that they are.[^5] There is virtually no regard given to their best interests,[^6] and abuse is the rule, not the exception.[^7] The instant that they're big enough or "spent," they're shipped to brutal slaughterhouses.[^8] They live in squalor and die in terror. 
