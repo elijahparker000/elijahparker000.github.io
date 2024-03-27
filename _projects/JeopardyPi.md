@@ -45,7 +45,7 @@ It's all a big mess of Python, and I used PyQt5 to design the GUIs. PyQt5 offers
 </div>
 
 The main problems I ran into with Qt Designer were that I couldn't figure out how to add custom fonts (I had to use Find and Replace in my code) and that things didn't always look the same once they got to the Raspberry Pi. For instance, if you want to make a button the standard blue color that Jeopardy uses, you have to also give it a zero-pixel border, otherwise the Raspberry Pi displays a very light blue color. I don't understand why this is the case, but if you're curious, the specific stylesheet code is:
-#> QPushButton{background-color:#060CE9; border:0px; color:#d69f4c;}
+> QPushButton{background-color:#060CE9; border:0px; color:#d69f4c;}
 This will set the button to be that Jeopardy blue color, and set the text within the button to be the yellowish color of the dollar amounts. Setting the border to zero pixels removes the animation that occurs when you press down on the screen, but I'm not sure why that's necessary to get the color to display correctly. 
 
 Aside from the design of the GUIs, most of the rest of the Python is written in the Base.py file to implement the game. Everything in PyQt5 is event based which was new to me, so it led to a lot of variables which were used to keep track of what was going on and what should happen when players press their buzzers. This is the part of the project where the code got really ugly, so any feedback related to prettifying it is welcome. Ultimately, it works.
