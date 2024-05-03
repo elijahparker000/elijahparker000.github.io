@@ -4,7 +4,7 @@ title: DNAM Germany Trip
 date: 2024-03-27 16:00:00
 description: My recent trip to Germany for my Senior Design Project
 tags: Germany DNAM
-categories: School
+categories: School Travel
 thumbnail: assets/img/GermanyTrip/Tractor.JPG
 ---
 
