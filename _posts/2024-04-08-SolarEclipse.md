@@ -6,6 +6,7 @@ description: See the pictures my dad and I took when we camped in Illinois for t
 tags: Space Camping
 categories: Travel
 thumbnail: assets/img/SolarEclipse/Eclipse.JPG
+featured: true
 ---
 
 On April 7th, my dad and I loaded up into his car with a borrowed tent and a reliable telescope and began the trip to a hayfield in Cobden, IL. 

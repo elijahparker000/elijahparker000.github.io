@@ -6,6 +6,7 @@ description: My recent trip to Germany for my Senior Design Project
 tags: Germany DNAM
 categories: School Travel
 thumbnail: assets/img/GermanyTrip/Tractor.JPG
+featured: true
 ---
 
 I just recently got back from my trip to Germany for my Senior Design Project. Myself and another Electrical Engineering student have been working with two EE students from Germany for the past several months, and we travelled to Germany from March 3rd-17th to meet them, see Germany, and work on the project. It was a really great experience, and we all had a lot of fun. We might've gotten a little bit of work done too. Below are some pictures from the trip. 
