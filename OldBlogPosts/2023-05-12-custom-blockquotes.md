@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with custom blockquotes
 date: 2023-05-12 15:53:00-0400
@@ -82,11 +82,11 @@ A regular blockquote can be used as following:
 > This is a regular blockquote
 > and it can be used as usual
 
-These custom styles can be used by adding the specific class to the blockquote, as follows:
+These custom styles can be used by adding the specific class to the blockquote, as follows: -->
 
 <!-- prettier-ignore-start -->
 
-```markdown
+<!-- ```markdown
 > ##### TIP
 >
 > A tip can be used when you want to give advice
@@ -126,6 +126,6 @@ These custom styles can be used by adding the specific class to the blockquote, 
 >
 > This is a danger zone, and thus should
 > be used carefully
-{: .block-danger }
+{: .block-danger } -->
 
 <!-- prettier-ignore-end -->
