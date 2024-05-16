@@ -1,47 +1,52 @@
 {
   "basics": {
     "name": "Elijah Parker",
-    "label": "Dual Major Electrical and Computer Engineering",
-    "image": "",
-    "email": "elijahparker000@gmail.com",
-    "phone": "(256) 996-5241",
+    "label": "Wireless Cyber Capabilities Engineer",
+    "contact": "You can find my contact info on my pdf resume above",
     "url": "https://elijahparker000.com",
-    "summary": "The best there ever was",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "summary": "With degrees in Electrical Engineering and Computer Engineering, I am committed to honing my skills to make a positive impact on the world.",
+    "profiles": []
   },
   "work": [
     {
+      "name": "Johns Hopkins University Applied Physics Laboratory",
+      "position": "Wireless Cyber Capabilities Engineer",
+      "url": "",
+      "startDate": "2024-06-01",
+      "endDate": "Pres",
+      "summary": "That’s classified."
+    },
+    {
       "name": "Open-Ended Reasoning and Knowledge Acquisition Lab",
       "position": "Undergraduate AI Researcher",
-      "url": "https://example.com",
+      "url": "",
       "startDate": "2023-10-01",
-      "endDate": "Present",
-      "summary": "Implementing MFCC technique for speech recognition to extract audio features from the EPIC-KITCHENS-100 dataset for multi-modal understanding in ego-centric videos",
-      "highlights": ["Computer Vision", "Audio Classification", "Dataset Creation"]
-    }
-  ],
-  "volunteer": [
+      "endDate": "2024-04-30",
+      "summary": "Implemented MFCC technique for speech recognition to extract audio features from the EPIC-KITCHENS-100 dataset for multi-modal understanding in ego-centric videos."
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Microelectronics Fabrication Lab, Auburn",
+      "position": "Student Employee",
+      "url": "",
+      "startDate": "2023-02-01",
+      "endDate": "2024-05-01",
+      "summary": "Aided electrical engineering PhD students with chemical processes related to microelectronics fabrication; designed and manufactured custom aluminum parts; maintained Python code for inventory management."
+    },
+    {
+      "name": "SiO2 Medical Products",
+      "position": "Process Engineering Co-Op",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Aided process engineers by operating, validating, and debugging manufacturing machinery; ensured quality control and thorough documentation."
+    },
+    {
+      "name": "Technology Service Corporation",
+      "position": "Computer Engineering Co-Op",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-05-31",
+      "summary": "Developed Python code to streamline testing processes and ensured product quality."
     }
   ],
   "education": [
@@ -49,151 +54,57 @@
       "institution": "Auburn University",
       "location": "Auburn, Alabama",
       "url": "https://www.auburn.edu/",
-      "area": "Double major in Electrical Engineering and Computer Engineering",
-      "studyType": "Bachelors",
+      "area": "Electrical Engineering and Computer Engineering",
+      "studyType": "Bachelor",
       "startDate": "2019-08-01",
       "endDate": "2024-05-01",
       "score": "4.0",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Advanced Machine Learning", "Microelectronics Fabrication", "Digital Systems Design"]
     }
   ],
   "awards": [
     {
-      "title": "Computer Engineering Student Of The Year",
-      "date": "2024-02-01",
+      "title": "Computer Engineering Student of the Year",
+      "date": "2024-05-01",
       "awarder": "Auburn University",
-      "url": "",
-      "summary": "Idk what to put here. I'll fill it out later"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "summary": "Recognized as the top student in Computer Engineering for outstanding academic and project achievements."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "ECE Capstone Showcase Outstanding Project Award",
+      "date": "2024-05-01",
+      "awarder": "Auburn University",
+      "summary": "Awarded for the Distributed Agricultural Monitoring Network project at the Capstone Showcase."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Dean's List",
+      "date": "2024-05-01",
+      "awarder": "Samuel Ginn College of Engineering, Auburn University",
+      "summary": "Achieved Dean's List honors every semester from Fall 2019 to Spring 2024."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Technical Skills",
+      "level": "Advanced",
+      "keywords": ["Python", "Java", "Matlab", "Verilog", "C", "C++", "Git", "GitHub", "LTspice", "Fusion 360", "Arduino", "Raspberry Pi", "3D Printing", "Microsoft Office"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Engineering and Technology",
+      "keywords": ["Distributed Agricultural Monitoring Network", "IoT", "3D Printing", "Educational Outreach"]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Available upon request",
+      "reference": "References and further details are available upon request."
     }
   ]
 }
