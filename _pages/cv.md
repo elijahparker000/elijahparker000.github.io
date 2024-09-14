@@ -1,6 +1,7 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/2024-05-16-ElijahParkerResume.pdf
+external: true
 title: cv
 nav: true
 nav_order: 5
