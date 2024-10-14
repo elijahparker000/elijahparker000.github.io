@@ -20,4 +20,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-At the moment, I'm a college student double majoring in Electrical Engineering and Computer Engineering at Auburn University. I'll be graduating in May, and after that I plan to work as part of the wireless cybersecurity team at the Johns Hopkins Applied Physics Laboratory while I work on getting a master's in Artificial Intelligence.
+Currently, I'm an electrical engineer at the Johns Hopkins Applied Physics Lab. I'm also pursuing my masters in A.I. at JHU. I'll try to keep this website up to date with major projects and stuff. Right now I'm working a new version of my JeopardyPi project which will hopefully make it more user friendly and visually appealing.
