@@ -127,7 +127,7 @@ All those tweaks led to something we’re pretty excited about. Three of the cla
 <div class="row mt-3"> 
     <div class="col-sm mt-3 mt-md-0"> 
         <figure> 
-            <video src="/assets/img/una_prosthetic/una_walk_1.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls="">
+            <video src="/assets/img/una_prosthetic/una_walk_1.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls="">
             </video>
         </figure>
     </div>
