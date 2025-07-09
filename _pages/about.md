@@ -7,7 +7,7 @@ permalink: /
 
 profile:
   align: right
-  image: JuneauAdoption.JPG
+  image: me_and_junie.JPG
   image_circular: false # crops the image to make it circular
   #more_info: >
     #<p>555 your office number</p>
