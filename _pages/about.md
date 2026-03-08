@@ -20,4 +20,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Currently, I'm an electrical engineer at the Johns Hopkins Applied Physics Lab. I'm also pursuing my masters in A.I. at JHU. I'll try to keep this website up to date with major projects and stuff. Right now I'm working a new version of my JeopardyPi project which will hopefully make it more user friendly and visually appealing.
+Hello! My name is Elijah, and I'm a part time master's student and full time electrical engineer at the Johns Hopkins Applied Physics Lab. In my free time, I'm usually wrestling my dog, 3D printing prosthetic chicken legs, or trying out a hobby I'll forever abandon in two weeks. I try (and usually fail) to keep this website up to date with cool projects I'm working on, so take a look around!

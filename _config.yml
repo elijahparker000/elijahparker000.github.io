@@ -101,7 +101,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can find my contact information on my LinkedIn or feel free to DM me on Instagram
+  Feel free to DM me on Instagram or reach out via <a href="https://docs.google.com/forms/d/e/1FAIpQLScz2m5qK1U-eMnMx-DZb3vAoLCWhzdGKjJZuZZyoxB5vLwKPw/viewform?usp=header" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">this Google Form</a>
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
